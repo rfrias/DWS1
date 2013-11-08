@@ -1,0 +1,23 @@
+/* 	Submitted By: Ramon Rafael G. Frias IV
+	style.css Document */
+body   			{
+				background: #F10026;}
+h1, h2     		{
+				text-align:center;
+				color: hsl(0,0%,100%);
+				border:solid 2px #F87085;
+				background: #F83E5B;
+				opacity: 0.5;}
+p      			{
+				color: black;}
+
+ol     			{
+				color: black;
+				background: rgb(157,0,25);}
+a	   			{
+				color: white;}		
+p.one           {
+				text-align: center;}
+/*colors acquired from http://colorschemedesigner.com*/
+
+    

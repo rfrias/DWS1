@@ -1,0 +1,41 @@
+/* 	Submitted By: Ramon Rafael G. Frias IV
+	style.css Document */	
+body   			{
+				background: #F10026;}
+h1, h2     		{
+				font-family: Jolly Lodger, cursive;
+				text-align:center;
+				text-shadow: 2px 2px 14px black; 
+				color: hsl(0,0%,100%);
+				border:solid 2px #F87085;
+				background: #F83E5B;
+				opacity: 0.5;}
+p      			{
+				line-height: 1.5em;
+				color: black;}
+ol     			{
+				font-style: italic;
+				color: black;
+				background: rgb(157,0,25);}
+ul				{
+				font-weight: bold;}
+/*-----------------Submitted by--------------*/			
+p.one           {
+				text-transform: uppercase;
+				letter-spacing: 0.4em;
+				font: 20pt/5 Fenix, serif;
+				text-align: center;}
+/*-----------------Styling Links-------------*/
+a 		       {
+				color: white;
+				text-decoration: none;}
+a:visited	   {
+				color:black;}
+a:hover		   {
+				color: green;}
+a:active       {
+				color: blue;
+				text-decoration: underline;}
+/*colors acquired from http://colorschemedesigner.com*/
+
+    
