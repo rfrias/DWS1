@@ -1,0 +1,66 @@
+/* 	Submitted By: Ramon Rafael G. Frias IV
+	style.css Document */	
+body   			{
+				background: #F10026;}
+div#wrapper		{
+				height: 1000px;
+				width: 800px;
+				margin: auto;
+				padding: 20px;
+				border: 1px solid;
+				border-radius: 10px;
+				box-shadow: 2px 2px 10px black;
+				background-color: #FFF;}
+h1, h2     		{
+				margin: auto;
+				padding: 2px;
+				font-family: Jolly Lodger, cursive;
+				text-align:center;
+				text-shadow: 2px 2px 14px black; 
+				color: hsl(0,0%,100%);
+				border:solid 2px #F87085;
+				border-radius: 10px;
+				background: #F83E5B;
+				opacity: 0.5;}
+p      			{
+				line-height: 1.5em;
+				color: black;}
+ol     			{
+				margin: 10px;
+				margin-left: 150px;
+				margin-right: 150px;
+				list-style-type: upper-alpha;
+				font-style: italic;
+				color: black;
+				border: 2px dotted orange;
+				border-radius: 10px;
+				background: rgb(157,0,25);}
+p.two			{
+				text-align: center;}
+ul				{
+				text-align: center;}
+ul>li			{
+				margin: 20px;
+				display: inline;
+				font-weight: bold;}
+/*-----------------Submitted by--------------*/			
+p.one           {
+				text-transform: uppercase;
+				letter-spacing: 0.4em;
+				font: 14pt/5 Fenix, serif;
+				text-align: center;
+				text-shadow: 2px 2px 14px red;}
+/*-----------------Styling Links-------------*/
+a 		       {
+				color: orange;
+				text-decoration: none;}
+a:visited	   {
+				color: black;}
+a:hover		   {
+				color: green;}
+a:active       {
+				color: blue;
+				text-decoration: underline;}
+/*colors acquired from http://colorschemedesigner.com*/
+
+    
