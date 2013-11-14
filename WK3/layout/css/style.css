@@ -1,0 +1,106 @@
+/* 	Submitted By: Ramon Rafael G. Frias IV
+	style.css Document */	
+body   			{
+				background: #F10026;
+				width: 100%;
+								}
+#wrapper		{
+				width: 60%;
+				margin: 0% auto;
+				padding: 2.5%;
+				border: 1px solid;
+				border-radius: 10px;
+				box-shadow: 2px 2px 10px black;
+				background-color: #FFF;
+								}
+h1  		    {
+				margin: 0% auto;
+				padding: .25%;
+				font-family: Jolly Lodger, cursive;
+				text-align:center;
+				text-shadow: 2px 2px 14px black; 
+				color: hsl(0,0%,100%);
+				border:solid 2px #F87085;
+				border-radius: 10px;
+				background: #F83E5B;
+				opacity: 0.5;
+								}
+h2				{
+				padding: .25%;
+				font-family: Jolly Lodger, cursive;
+				text-shadow: 2px 2px 14px black; 
+				color: hsl(0,100%,50%);
+				opacity: 0.5;
+								}
+p      			{
+				line-height: 1.5em;
+				color: black;
+								}
+ol     			{
+				list-style-type: upper-alpha;
+				font-style: italic;
+				color: black;
+								}
+p.two			{
+				border: 2px dotted orange;
+				border-radius: 10px;
+				background: rgb(157,0,25);
+				text-align: center;
+								}
+ul				{
+				
+								}
+ul>li			{
+				margin: 2.5%;
+				display: inline;
+				font-weight: bold;
+								}
+/*-----------------Main--------------*/
+#main			{
+				float: left;
+				width: 48%;
+				margin-left: 1%;
+				margin-right: 1%;
+								}
+/*-----------------Sidebar--------------*/
+#sidebar		{
+				float: right;
+				width:48%;
+				padding: 1%;
+				text-align: center;
+				border: 0px solid;
+				border-radius: 10px;
+				box-shadow: 2px 2px 10px black;
+				background-color: pink;
+								}
+/*-----------------Footer--------------*/
+#footer			{
+				clear: both;
+								}
+/*-----------------Submitted by--------------*/			
+p.submitted     {
+				width: 100%;
+				text-transform: uppercase;
+				letter-spacing: 0.4em;
+				font: 1.125em/5 Fenix, serif;
+				text-align: center;
+				text-shadow: 2px 2px 14px red;
+								}
+/*-----------------Styling Links-------------*/
+a 		       {
+			   color: orange;
+			   text-decoration: none;
+			   				}
+a:visited	   {
+			   color: black;
+			   				}
+a:hover		   {
+			   color: green;
+			   				}
+a:active       {
+		       color: blue;
+			   text-decoration: underline;
+			   				}
+/*colors acquired from http://colorschemedesigner.com*/
+
+    
