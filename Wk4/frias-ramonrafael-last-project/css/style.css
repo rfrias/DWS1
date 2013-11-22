@@ -1,0 +1,245 @@
+/* 	Submitted By: Ramon Rafael G. Frias IV
+	style.css Document */	
+/*--------------------GENERAL EDITS----------------------*/
+body 		{
+			font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+			background: #4E5869 url(../images/dark-canvas.gif) repeat center center;
+			margin: 0;
+			padding: 0;
+			color: #000;
+			line-height: 1.0em;
+			}
+
+ul, ol, dl  {
+			padding: 0;
+			margin: 0;
+			}
+
+h1			{
+			margin: 0 auto;
+			width: 40%;
+			color: rgb(255,255,255);
+			text-shadow: 3px 3px 15px #FF0000;
+			background-color: #4f0000;
+			border: solid 2px black;
+			border-radius: 10px;
+			opacity: 0.5;
+			font-family: 'Diplomata SC', cursive;
+			}
+
+h1, h2, h3, p {
+			margin-top: 0;
+			text-align: center;
+			padding-right: 10px;
+			padding-left: 10px;
+			}
+			
+.quote		{
+			text-align: center;
+			}
+/*--------------------END OF GENERAL EDITS----------------------*/
+/*--------------------TABLE----------------------*/
+table		{
+			border: 1px black dotted;
+			border: none;
+			width: 90%;
+			border-spacing: 1px;
+			margin: 1%;
+			empty-cells: hide;
+			}
+			
+th, td 		{ 
+			font-size: 14px;
+			padding: .1% .1% .1% .1%;
+			text-align: center;
+			}
+			
+th 			{ 
+			background-color: #4f0000;
+			text-transform: uppercase; 
+			letter-spacing: 0.1em; 
+			font-size: 80%;
+			}
+			
+tr			{
+			background: white;
+			}
+			
+tr.even		{
+			background: pink;
+			}
+			
+td:hover 	{
+			background-color: #CCC;
+			}
+/*--------------------END OF TABLE----------------------*/				
+
+/*--------------------LINKS HOVER etc----------------------*/
+a img 		{
+			border: none;
+			}
+
+a:link 		{
+			color:#414958;
+			text-decoration: underline;
+			}
+			
+a:visited 	{
+			color: #4E5869;
+			text-decoration: underline;
+			}
+			
+a:hover, a:active, a:focus {
+			text-decoration: none;
+			}
+/*--------------------END OF LINKS HOVER etc.----------------------*/
+
+/*--------------------SUBMITTED BY----------------------*/
+.submitted	{
+			float: left;
+			}
+/*--------------------END OF SUBMITTED BY----------------------*/
+/*--------------------MAIN TOPICS----------------------*/
+.container {
+			width: 80%;
+			max-width: 1260px;
+			min-width: 780px;
+			background: linear-gradient(to bottom, rgba(76,2,2,1) 0%,rgba(255,255,255,1) 100%);
+			margin: 0 auto;
+			box-shadow: 2px 2px 20px white;
+			}
+			
+header 		{
+			background: black url(../images/lava-rock.gif) no-repeat center right;
+			}
+
+aside 		{
+			float: right;
+			width: 17.5%;
+			padding-bottom: 10px;
+			}
+			
+article 	{
+			padding: 10px 0;
+			width: 80%;
+			float: right;
+			}
+
+article ul, article ol { 
+			padding: 0 15px 15px 40px;
+			}
+/*--------------------END OF MAIN TOPICS----------------------*/
+/*--------------------NAVIGATIONS----------------------*/
+ul.nav 		{
+			list-style: none;
+			border-top: 1px solid #666;
+			margin-bottom: 15px;
+			}
+
+ul.nav2		{
+			list-style: none;
+			}
+			
+ul.nav li 	{
+			border-bottom: 1px solid #666;
+			}
+			
+ul.nav2 li  {
+			display: inline;
+			margin-right: 10%;
+			}
+			
+ul.nav a, ul.nav a:visited {
+			padding: 5px 5px 5px 15px;
+			display: block;
+			text-decoration: none;
+			background-color: #390000;
+			color: white;
+			}
+			
+ul.nav2 a, ul.nav2 a:visited {
+			text-decoration: none;
+			color: black;
+			}
+			
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+			background-color: yellow;
+			color: black;
+			}
+/*--------------------END OF NAVIGATIONS----------------------*/
+
+/*--------------------GALLERY----------------------*/
+#gallery	{
+			text-align: center;
+			}
+
+.gallery	{
+			width: 80%;
+			max-width: 1260px;
+			min-width: 780px;
+			margin: 0 auto;
+			padding: 1% 1% 1% 1%;
+			}
+			
+figure		{
+			background: #4f0000;
+			float: right;
+			}
+			
+figcaption  {
+			text-align: center;
+			}
+/*--------------------END OF GALLERY----------------------*/
+/*--------------------FORMS----------------------*/
+fieldset 	{ 
+			margin: 0 auto;
+			width: 30%; 
+			border: 1px solid black;
+			padding: 2%;
+			text-align: left;
+			}
+			
+legend 		{ 
+		    background-color: white; 
+			border: 1px solid black; 
+			padding: 5px 15px;
+			text-transform: uppercase;
+			}
+			
+select:hover, input:hover, textarea:hover {
+			background-color: grey;
+			}
+			
+textarea:focus, input:focus, select:focus {
+			border: 2px solid red;
+			}
+			
+div 		{
+			margin: 10px; 
+			padding-bottom: 10px;
+			width: 100%;
+			}
+
+.title 		{ 
+			float: left; 
+			width: 115px; 
+			text-align: right; 
+			padding-right: 1%;
+			}
+
+.submit 	{ 
+			text-align: right;
+			}
+/*--------------------END OF FORMS----------------------*/
+/*--------------------FOOTER----------------------*/
+footer 		{
+			padding: 10px 0;
+			background-color: #4f0000;
+			position: relative;
+			clear: both;
+			}
+			
+p.reference a{
+			color: white;
+			}
+/*--------------------END OF FOOTER----------------------*/
