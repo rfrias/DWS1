@@ -3,7 +3,7 @@
 /*--------------------GENERAL EDITS----------------------*/
 body 		{
 			font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-			background: #4E5869 url(../images/dark-canvas.gif) repeat center center;
+			background: white url(../images/dark-canvas.gif) repeat center center;
 			margin: 0;
 			padding: 0;
 			color: #000;
