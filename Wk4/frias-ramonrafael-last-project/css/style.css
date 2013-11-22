@@ -166,6 +166,9 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 			background-color: yellow;
 			color: black;
 			}
+ul.nav2 a:hover, ul.nav2 a:active, ul.nav2 a:focus {
+			color: white;
+			}
 /*--------------------END OF NAVIGATIONS----------------------*/
 
 /*--------------------GALLERY----------------------*/
